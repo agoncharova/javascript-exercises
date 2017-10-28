@@ -3,11 +3,11 @@ var fooHelper = function(){
 }
 
 var foo = function(){
-  caseTwoHelper();
+  fooHelper();
   console.log(thing);
 }
 
 
-$("#debug-button").click(function(event) {
-	foo();
-});
+// $("#debug-button").click(function(event) {
+// 	foo();
+// });

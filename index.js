@@ -34,7 +34,7 @@ var pickRandomBoolean = function() {
 	}
 }
 
-$('#debug-button').click(function(event) { 
-	 var randomBoolean = pickRandomBoolean();
-	 testFuncOne(randomBoolean);
-});
+// $('#debug-button').click(function(event) { 
+// 	 var randomBoolean = pickRandomBoolean();
+// 	 testFuncOne(randomBoolean);
+// });
