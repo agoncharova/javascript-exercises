@@ -1,3 +1,4 @@
+
 $('.kale-radio').click(function(event) {
 	var response = event.target.value;
 	if(response){ 
@@ -7,13 +8,13 @@ $('.kale-radio').click(function(event) {
 	}
 });
 
-/*
+
 var testFuncTwo = function(bool) {	
-	console.log("Awesome job!");
+	alert("Awesome job!");
 }
 
 var testFuncThree = function(bool) {
-	console.log("Yey, test function three");
+	alert("Yey, test function three");
 }
 
 var testFuncOne = function(bool) {
@@ -35,7 +36,5 @@ var pickRandomBoolean = function() {
 
 $('#debug-button').click(function(event) { 
 	 var randomBoolean = pickRandomBoolean();
-	 debugger;
 	 testFuncOne(randomBoolean);
 });
-*/

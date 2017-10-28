@@ -1,25 +1,13 @@
-/*
-var caseOne = function() {
-  for (var i = 0, i < 5, i++) {
-    console.log(i);
-  }
-}
-*/
-
-/*
-var caseTwoHelper = function(){
+var fooHelper = function(){
    var thing = "foo";
 }
 
-var caseTwo = function(){
+var foo = function(){
   caseTwoHelper();
-	thing;
+  console.log(thing);
 }
-*/
 
-/*
+
 $("#debug-button").click(function(event) {
-	// caseOne();
-	// caseTwo();
+	foo();
 });
-*/
